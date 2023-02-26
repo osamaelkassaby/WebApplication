@@ -1,0 +1,11 @@
+﻿body {
+    background: #01161e
+}
+.inputs {
+    width: 200px;
+    background: #01161e;
+    border:solid 1px white;
+}.inputs label{
+     color:white;
+     font-size:25px;
+ }

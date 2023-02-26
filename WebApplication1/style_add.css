@@ -1,0 +1,44 @@
+﻿.div-form{
+    display:grid;
+}
+.div-form input {
+    background-color: var(--app-content-secondary-color);
+    border: 1px solid var(--app-content-secondary-color);
+    color: var(--app-content-main-color);
+    font-size: 30px;
+    line-height: 24px;
+    border-radius: 4px;
+    padding: 0px 10px 0px 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: left 10px center;
+    width: 100%;
+    max-width: 420px;
+    transition: 0.2s;
+}
+    .div-form input::placeholder {
+        font-weight: bold;
+        opacity: 0.5;
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .div-form button {
+        background-color: #d80032;
+        border: 1px solid var(--app-content-secondary-color);
+        color: var(--app-content-main-color);
+        font-size: 25px;
+        line-height: 24px;
+        border-radius: 4px;
+        height: 32px;
+      
+        width: 100%;
+        max-width: 220px;
+        transition: 0.2s;
+    }
+/*the container must be positioned relative:*/
+select {
+    font-size: 30px;
+    color: #fff;
+    background: #101827;
+}
